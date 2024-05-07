@@ -172,12 +172,12 @@ h1{
 
 @keyframes bounce {
     0%, 100% {
-      transform: translateY(0);
+    transform: translateY(0);
     }
     50% {
-      transform: translateY(-20px);
+    transform: translateY(-20px);
     }
-  }
+}
 .preloader {
     position: fixed;
     width: 100%;
@@ -187,14 +187,14 @@ h1{
     top: 0;
     display: flex;
     align-items: center;
-  }
-  .preloader img {
+}
+.preloader img {
     /* animation: spin 5s ease; */
     animation: bounce 1s ease infinite;
     transition: all;
     width: 150px;
     margin: 0 auto;
-  }
+} 
 
 @media only screen and (max-width:600px){
     .navigation{
@@ -234,7 +234,7 @@ h1{
     .myWork1, .myWork2, .myWork3 {
         padding-right: 0;
     }
-    .myWork1 button, .myWork2 button, .myWork3 button {
-        margin-left: 45px;
-    } 
+    /* .myWork1 button, .myWork2 button, .myWork3 button {
+        margin-left: 100px;
+    }   */
 }
